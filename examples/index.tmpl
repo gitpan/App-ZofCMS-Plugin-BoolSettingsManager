@@ -1,0 +1,25 @@
+{
+    body => \'index.tmpl',
+    title => 'Test',
+    d => {
+        user => {
+            login   => 'zoffix',
+        },
+    },
+
+    plugins => [
+        qw/BoolSettingsManager/,
+    ],
+
+    plug_bool_settings_manager => {
+        dsn     => 'DBI:mysql:database=test;host=localhost',
+        user    => 'test',
+        pass    => 'test',
+        settings => [
+            notice_forum         => q|new forum posts|,
+            notice_flyers        => q|new flyer uploads|,
+            notice_photo_library => q|new images added to Photo Library|,
+        ],
+    },
+
+};
