@@ -2,16 +2,16 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-          'NAME' => 'App::ZofCMS::Plugin::BoolSettingsManager',
-          'VERSION_FROM' => 'lib/App/ZofCMS/Plugin/BoolSettingsManager.pm',
-          'PREREQ_PM' => {
-                           'App::ZofCMS::Plugin::Base' => '0.0106',
-                           'DBI' => '1.607',
-                           'HTML::Template' => '2.9',
-                           'Test::More' => 0
-                         },
-          'INSTALLDIRS' => 'site',
-          'EXE_FILES' => [],
-          'PL_FILES' => {}
-        )
+  'NAME' => 'App::ZofCMS::Plugin::BoolSettingsManager',
+  'VERSION_FROM' => 'lib/App/ZofCMS/Plugin/BoolSettingsManager.pm',
+  'PREREQ_PM' => {
+                   'App::ZofCMS::Plugin::Base' => '0.0106',
+                   'DBI' => '1.607',
+                   'HTML::Template' => '2.9',
+                   'Test::More' => 0
+                 },
+  'INSTALLDIRS' => 'site',
+  'EXE_FILES' => [],
+  'PL_FILES' => {}
+)
 ;

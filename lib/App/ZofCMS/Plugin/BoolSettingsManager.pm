@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::BoolSettingsManager;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 use base 'App::ZofCMS::Plugin::Base';
 use HTML::Template;
@@ -245,7 +245,7 @@ to execute.
 
 B<Mandatory>. Takes either a hashref or a subref as a value.
 If subref is specified, its return value will be assigned to
-C<plug_user_login_forgot_password> key as if it was already there.
+C<plug_bool_settings_manager> key as if it was already there.
 If sub returns an C<undef>, then plugin will stop further processing.
 The C<@_> of the subref will contain C<$t>, C<$q>, and C<$config>
 (in that order), where C<$t> is ZofCMS Template hashref,
