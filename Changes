@@ -1,8 +1,11 @@
 Revision history for App-ZofCMS-Plugin-BoolSettingsManager
 
-0.0102  December 26, 2010
-	Fixed documentation error
+0.0103  2013-11-01
+        - Minor fixes to comply with specs and Kwalitee game
 
-0.0101  December 22, 2010
-        First version, released on an unsuspecting world.
+0.0102  2010-12-26
+	- Fixed documentation error
+
+0.0101  2010-12-22
+        - First version, released on an unsuspecting world.
 
